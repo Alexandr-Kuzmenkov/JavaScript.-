@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>leson_JS_2.3</title>
+</head>
+<body>
+
+<script>
+    "use strict";
+
+    let a = +prompt("Введите произвольное число");
+    let b = +prompt("Введите произвольное число");
+
+    if (a >= 0 && b >= 0) {
+        alert("Разница чисел равно: " + (a - b));
+    }
+    if (a < 0 && b < 0) {
+        alert("Произведение чисел равно: " + (a * b));
+    }
+    if ((a >= 0 && b < 0) || (a < 0 && b >= 0)) {
+        alert("Сумма чисел равна: " + (a + b));
+    }
+
+</script>
+</body>
+</html>
